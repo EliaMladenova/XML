@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<cinema>
+<name>Cinema City Paradise</name>
+<address>София, бул. Черни връх 100, в сградата на Paradise Cente</address>
+<phone>02 903 74 74</phone>
+<p>
+Мултиплекс Cinema City Парадайз разполага с:<br />
+• 14 модерни киносалона с 2166 места <br />
+• първата 4DX зала в България<br />
+• съоръжения за посетители в инвалидни колички<br />
+• Посетителите на Парадайз център ползват 2 часа безплатен паркинг. За допълнителни 90 минути е необходимо да валидирате талона си за паркиране  на касите при закупуване на билетите за кино. <br />
+</p>
+<email>info.paradise@cinemacity.bg</email>
+</cinema>
+<price>
+<weekday>
+<classic>11.50лв</classic>
+<students>9.00лв</students>
+</weekday>
+<weekend>
+<classic>12.60лв</classic>
+<students>9.60лв</students>
+</weekend>
+</price>
+<program>
+<movie>
+<title>Войната с дядо</title> 
+<hour>
+<weekday>13:50, 15:50, 18:00, 20:00, 22:10</weekday>
+<weekend>11:50, 13:50, 15:50, 18:00, 20:00, 22:10</weekend>
+</hour>
+<title>Гренландия</title>
+<hour>
+<everyday>13:20, 15:50, 18:20, 19:50, 20:50, 22:20</everyday>
+</hour>
+<title>Кралско корги</title>
+<hour>
+<everyday>14:30</everyday>
+</hour>
+<title>Лигата на животните</title>
+<hour>
+<everyday>13:20, 15:30, 17:40, 19:10</everyday>
+</hour>
+<title>Мулан</title>
+<hour>
+<weekday>13:40, 14:50, 16:20, 17:10, 18:00, 18:40, 19:30, 20:20, 21:10, 21:50</weekday>
+<weekend>11:15, 12:30, 13:40, 14:50, 16:20, 17:10, 18:00, 18:40, 19:30, 20:20, 21:10, 21:50</weekend>
+</hour>
+<title>Напред</title>
+<hour>
+<weekday>16:50</weekday>
+<weekend> 12:30, 16:50</weekend>
+</hour>
+</movie>
+</program>
+</root>

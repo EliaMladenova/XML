@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<operators>
+<entry>
+<condition>EQUAL TO</condition>
+<operator> = </operator>
+<formulaexample> =A1=B1 </formulaexample>
+<description>The formula returns true if a value in cell A1 is equal to the values in cell B1; FALSE otherwise</description>
+</entry>
+
+<entry>
+<condition>NOT EQUAL TO</condition>
+<operator> &lt;&gt; </operator>
+<formulaexample> =A1&lt;&gt;B1 </formulaexample>
+<description>The formula returns TRUE if a value in cell A1 is not equal to the value in cell B1; FALSE otherwise</description>
+</entry>
+
+<entry>
+<condition>GREATER THAN</condition>
+<operator> &gt; </operator>
+<formulaexample> =A1&gt;B1 </formulaexample>
+<description>The formula returns TRUE if a value in cell A1 is greater than a value in cell B1; otherwise it returns FALSE</description>
+</entry>
+
+<entry>
+<condition>LESS THAN</condition>
+<operator>&lt;</operator>
+<formulaexample>=A1&lt;B1</formulaexample>
+<description>The formula returns TRUE if a value in cell A1 is less than a value in cell B1;FALSE otherwise</description>
+</entry>
+
+<entry>
+<condition>GREATER THAN</condition>
+<operator>&gt;</operator>
+<formulaexample>=A1&gt;B1</formulaexample>
+<description>The formula returns TRUE if a value in cell A1 is greater than a value in cell B1; otherwise it returns FALSE</description>
+</entry>
+
+<entry>
+<condition>GREATER THAN OR EQUAL TO</condition>
+<operator>&gt;=</operator>
+<formulaexample>=A1&gt;=B1</formulaexample>
+<description>The formula returns TRUE if a value in cell A1 is greater than or equal to the values in cell B1;FALSE otherwise</description>
+</entry>
+
+
+<entry>
+<condition>LESS THAN OR EQUAL TO</condition>
+<operator>&lt;=</operator>
+<formulaexample>=A1&lt;=B1</formulaexample>
+<description>The formula returns TRUE if a value in cell A1 is less than or equal to the values in cell B1; FALSE otherwise</description>
+</entry>
+</operators>

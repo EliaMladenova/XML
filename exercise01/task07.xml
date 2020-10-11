@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<record>
+<name>Miller</name>
+<html:title xmlns:html="http://www.w3.org/TR/html4/">Dr. </html:title>
+<publications> 
+<book>
+<title>A true story</title>
+<description>A real cool publication</description>
+</book>
+</publications>
+</record>
+</root>
