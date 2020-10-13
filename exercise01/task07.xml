@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
+<html:root xmlns:html="http://www.w3.org/TR/html4/">
 <record>
-<name>Miller</name>
-<html:title xmlns:html="http://www.w3.org/TR/html4/">Dr. </html:title>
+<html:name>Miller</html:name>
+<html:title>Dr. </html:title>
 <publications> 
 <book>
 <title>A true story</title>
@@ -10,4 +10,4 @@
 </book>
 </publications>
 </record>
-</root>
+</html:root>
