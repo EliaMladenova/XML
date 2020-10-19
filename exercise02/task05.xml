@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE channel [
+<!ELEMENT channel (item+,title,link,image*,language?,description)>
+<!ATTLIST channel version CDATA "">
+<!ELEMENT item (title,link,description?)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT image (title,link,url)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+]>
+<channel version="1.0">
+    <item>
+    	<title>This title</title>
+      <link> https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd</link>
+    </item>
+      <title>Title two</title>
+      <link></link>
+    <image>
+       <title>Ttitle image</title>
+       <link> https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd</link>
+       <url>www/this.com/image.png</url>
+     </image>
+     <language>English</language>
+     <description>This is some XML</description>
+</channel>
