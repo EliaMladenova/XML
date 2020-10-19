@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE game [
+<!ELEMENT game (team+,score,player*,timeScore*,card)>
+<!ELEMENT team (#PCDATA)>
+<!ELEMENT score (#PCDATA)>
+<!ELEMENT player (#PCDATA)>
+<!ELEMENT timeScore (#PCDATA)>
+<!ELEMENT card (yellows*,reds*)>
+<!ELEMENT yellows (#PCDATA)>
+<!ELEMENT reds (#PCDATA)>
+]>
+<game>
+    <team>CSKA</team>
+    <team>Levski</team>
+    <score>1-0</score>
+    <player>Valentin Antov</player>
+    <timeScore>56'</timeScore>
+    <card>
+        <yellows>None</yellows>
+        <reds>Stanislav Ivanov</reds>
+    </card>
+</game>
