@@ -18,15 +18,16 @@
 ]>
 <channel version="1.0">
     <item>
-    	<title>This title</title>
-      <link> https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd</link>
+    	<title>Title for item</title>
+      <link> https://www.w3schools.com/xml/xml_dtd_intro.asp</link>
+      <description>This is the first item</description>
     </item>
       <title>Title two</title>
-      <link></link>
+      <link>https://www.w3schools.com/xml/xml_dtd_attributes.asp</link>
     <image>
-       <title>Ttitle image</title>
-       <link> https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd</link>
-       <url>www/this.com/image.png</url>
+       <title>image</title>
+       <link> www/google.com/image.png </link>
+       <url>www/google.com/image.png</url>
      </image>
      <language>English</language>
      <description>This is some XML</description>
