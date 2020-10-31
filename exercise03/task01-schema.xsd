@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+   <xs:element name="collection">
+        <xs:complexType>
+            <xs:sequence>
+                    <xs:element ref="description"/>
+                    <xs:element ref="recipe" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+   </xs:element>
+   <xs:element name="description">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:any minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+   </xs:element>
+   <xs:element name="recipe">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="title"/>
+                <xs:element ref="ingredient" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="preparation"/>
+                <xs:element ref="comment" minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="nutrition"/>
+            </xs:sequence>
+        </xs:complexType>
+   </xs:element>
+   <xs:element name="title">
+        <xs:complexType mixed="true"/>
+   </xs:element>
+   <xs:element name="ingredient">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="preparation" minOccurs="0" maxOccurs="1"/>
+            </xs:sequence>
+            <xs:attribute name="name" use="required"/>
+            <xs:attribute name="amount"/>
+            <xs:attribute name="unit"/> 
+        </xs:complexType>
+   </xs:element>
+   <xs:element name="preparation">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="step" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+   </xs:element>
+   <xs:element name="step">
+        <xs:complexType mixed="true"/>
+   </xs:element>
+   <xs:element name="comment">
+        <xs:complexType mixed="true"/>
+   </xs:element>
+   <xs:element name="nutrition">
+        <xs:complexType>
+            <xs:attribute name="protein" use="required"/>
+            <xs:attribute name="carbohydrates" use="required"/>
+            <xs:attribute name="fat" use="required"/>
+            <xs:attribute name="calories" use="required"/>
+            <xs:attribute name="alcohol" use="required"/>
+        </xs:complexType>
+   </xs:element>
+</xs:schema>
