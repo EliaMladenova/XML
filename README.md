@@ -14,3 +14,7 @@ ex5 - http://apogee.online/xml/exer/exercise5/exercise5.html
 ex6 - http://apogee.online/xml/exer/exercise6/exercise6.html
 
 XML Schema Validator - https://www.liquid-technologies.com/online-xsd-validator
+
+XPath and XQuery процесор - http://videlibri.sourceforge.net/cgi-bin/xidelcgi
+
+XQuery процесор - http://try.zorba.io/
